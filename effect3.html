@@ -1,0 +1,61 @@
+<head>
+	<strong>과제 #07-02, 한상혁(201714160)
+	<style>
+		@keyframes bounce{
+		from, to{
+			bottom: 0px;
+			animation-timing-function: ease-out;
+			}
+			50%{
+			bottom: 200px;
+			animation-timing-function: ease-in;
+			}
+			
+		}
+		div{
+		position: absolute;
+		width: 30px;
+		height: 30px;
+		border-radius: 20px;
+		animation-name: bounce;
+		animation-iteration-count: infinite;
+		}
+		#b1{
+		left: 10px;
+		background: red;
+		background: radial-gradient(circle, white, red);
+		animation-duration: 5s;
+		}
+		#b2{
+		left: 50px;
+		background: blue;
+		background: radial-gradient(circle, white, blue);
+		animation-duration: 10s;
+		}
+		#b3{
+		left: 90px;
+		background: green;
+		background: radial-gradient(circle, white, green);
+		animation-duration: 3s;
+		}
+		#b4{
+		left: 130px;
+		background: silver;
+		background: radial-gradient(circle, white, silver);
+		animation-duration: 8s;
+		}
+		#b5{
+		left: 170px;
+		background: black;
+		background: radial-gradient(circle, white, black);
+		animation-duration: 1s;
+		}
+		</style>
+		</head>
+		<body>
+		<div id="b1"></div>
+		<div id="b2"></div>
+		<div id="b3"></div>
+		<div id="b4"></div>
+		<div id="b5"></div>
+		</body>
